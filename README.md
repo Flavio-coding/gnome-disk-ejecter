@@ -37,10 +37,14 @@ Lo script verificherà innanzitutto la presenza di Zenity, il tool di GNOME che 
 Se Zenity non è installato, verrà segnalato: potrai installarlo tramite il gestore pacchetti della tua distribuzione (es. su Arch Linux con yay -S zenity).
 
 A seguire, lo script procederà a:
-    Scaricare lo script principale per l'espulsione dei dischi
-    Assegnargli i permessi di esecuzione (chmod +x)
-    Creare un collegamento grafico nella dash delle applicazioni di GNOME
-    ⚠️ L'icona dell'app potrebbe impiegare qualche istante a comparire. Se non appare subito, prova a riavviare il PC.
+1. Scaricare lo script principale per l'espulsione dei dischi
+
+2. Assegnargli i permessi di esecuzione (chmod +x)
+    
+3. Creareun collegamento grafico nella dash delle applicazioni di GNOME
+    
+⚠️ L'icona dell'app potrebbe impiegare qualche istante a comparire. Se non appare subito, prova a riavviare il PC.
+    
 
 ---
 
