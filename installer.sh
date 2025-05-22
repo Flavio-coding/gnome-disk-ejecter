@@ -17,10 +17,11 @@ echo "Questo installer installerà lo script di espulsione sicura dei dischi, co
 echo
 read -rp "Procedere con l'installazione? (S/n): " conferma
 
-if [[ "$conferma" != "s" && "$conferma" != "S" ]]; then
+if [[ "$conferma" =~ ^[Nn]$ ]]; then
   echo "❌ Installazione annullata."
   exit 1
 fi
+
 
 
 # ----------- CONTROLLO ZENITY -----------
