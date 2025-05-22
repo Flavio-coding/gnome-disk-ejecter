@@ -50,4 +50,4 @@ A seguire, lo script procederà a:
 ---
 
 Made by Flavio with ❤️.
-Vuoi contruibuire al progetto? Migliora il codice, oppure contribuisci con le traduzioni!
+  Vuoi contruibuire al progetto? Migliora il codice, oppure contribuisci con le traduzioni!
