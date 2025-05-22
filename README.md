@@ -60,6 +60,6 @@ Lo script procederà a:
     
 ⚠️  L'icona dell'app potrebbe impiegare qualche istante a essere rimossa. Se non avviene subito, prova a riavviare il PC.
 
-
+---
 Made by Flavio with ❤️.
   Vuoi contruibuire al progetto? Migliora il codice, oppure contribuisci con le traduzioni!
