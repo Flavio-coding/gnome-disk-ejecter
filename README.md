@@ -26,7 +26,7 @@ Lo script **Gnome Disk Ejecter** risolve questo problema:
 
 ![Solo smonta - Screenshot](https://github.com/user-attachments/assets/05ba6619-2902-4f21-b3a1-55526945b061)
 
----
+
 
 ## 🛠️ Installazione
 
@@ -34,3 +34,9 @@ Apri un terminale e incolla questo comando:
 
 ```bash
 bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/installer.sh)
+
+
+---
+
+Made by Flavio with ❤️.
+Vuoi contruibuire al progetto? Migliora il codice, oppure contribuisci con le traduzioni!
