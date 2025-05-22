@@ -44,9 +44,21 @@ A seguire, lo script procederà a:
 3. Creareun collegamento grafico nella dash delle applicazioni di GNOME
     
 ⚠️   L'icona dell'app potrebbe impiegare qualche istante a comparire. Se non appare subito, prova a riavviare il PC.
-    
 
     
+## 🗑️ Disnstallazione
+
+Apri un terminale e incolla questo comando:
+
+```bash
+bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/unnstaller.sh)
+```
+Lo script procederà a:
+1. Eliminare lo script principale per l'espulsione dei dischi
+    
+2. Eliminare il collegamento grafico nella dash delle applicazioni di GNOME
+    
+⚠️   L'icona dell'app potrebbe impiegare qualche istante a essere rimossa. Se non avviene subito, prova a riavviare il PC.
 ---
 
 Made by Flavio with ❤️.
