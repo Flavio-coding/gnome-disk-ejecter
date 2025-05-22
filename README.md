@@ -1,7 +1,9 @@
 # Gnome disk ejecter
-Un semplice script bash in zenity che smonta e spegne qualsiasi disco connesso al tuo PC linux, utile se di default hai solo l'opzione smonta e non espelli.
+Un semplice script bash in zenity che smonta e spegne qualsiasi disco connesso al tuo PC linux, utile se di default hai solo l'opzione smonta e non espelli come puoi vedere in questa immagine 👉https://github.com/user-attachments/assets/05ba6619-2902-4f21-b3a1-55526945b061
+
 
 ![immagine](https://github.com/user-attachments/assets/906400eb-3f43-403f-838c-47f317f2daec)
+
 Quando premiamo "espelli", il sistema operativo smonta il filesystem del disco esterno, dunque non possiamo più comunicare con esso, e ne toglie alimentazione. In alcuni casi, compare solo il tasto smonta, dunque l'unico modo per fermare il disco e toglierlo fisicamente dalla porta USB. Quando è connesso un HHD meccanico, un espulsione sicura è consigliata.
 Questo script permette di scegliere il disco da espellere, ne smonta il filesystem e ne toglie l'alimentazione.
 
