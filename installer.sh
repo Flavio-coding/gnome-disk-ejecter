@@ -3,7 +3,7 @@
 # ----------- INTESTAZIONE GRAFICA -----------
 echo -e "\033[1;34m"
 echo "╔══════════════════════════════════════════════════════════════════════╗"
-echo "║   INSTALLAZIONE DELLO SCRIPT DI ESPULSIONE SICURA DEI DISCHI         ║"
+echo "║   INSTALLAZIONE DELLO SCRIPT DI ESPULSIONE SICURA DEI DISCHI    jdjfdjdjdjdj     ║"
 echo "╚══════════════════════════════════════════════════════════════════════╝"
 echo -e "\033[0m"
 
