@@ -17,7 +17,7 @@ echo "Questo installer installerà lo script di espulsione sicura dei dischi, co
 echo
 read -rp "Procedere con l'installazione? (S/n): " conferma
 
-if [[ "$conferma" != "n" && "$conferma" != "N" ]]; then
+if [[ "$conferma" != "s" && "$conferma" != "S" ]]; then
   echo "❌ Installazione annullata."
   exit 1
 fi
