@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Espulsione Disco
 Comment=Espelli un disco esterno in sicurezza
-Exec=/home/flavio/Scripts/espelli-disco.sh
+Exec=~/Scripts/espelli-disco.sh
 Icon=media-eject-symbolic
 Terminal=false
 Type=Application
