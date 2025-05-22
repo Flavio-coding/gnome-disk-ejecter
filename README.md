@@ -2,7 +2,6 @@
 
 Un semplice script Bash con interfaccia **Zenity** che permette di **espellere in sicurezza dischi esterni** connessi al tuo PC Linux.
 
----
 
 ## 📸 Anteprima
 
