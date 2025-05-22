@@ -2,9 +2,9 @@
 
 # ----------- INTESTAZIONE GRAFICA -----------
 echo -e "\033[1;34m"
-echo "╔══════════════════════════════════════════════════════════════════════╗"
-echo "║   INSTALLAZIONE DELLO SCRIPT DI ESPULSIONE SICURA DEI DISCHI         ║"
-echo "╚══════════════════════════════════════════════════════════════════════╝"
+echo "╔════════════════════════════════════════════════════════════════════════════╗"
+echo "║         INSTALLAZIONE DELLO SCRIPT DI ESPULSIONE SICURA DEI DISCHI         ║"
+echo "╚════════════════════════════════════════════════════════════════════════════╝"
 echo -e "\033[0m"
 
 REPO_URL="https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main"
