@@ -11,7 +11,7 @@ SCRIPT_PATH="$HOME/Scripts/espelli-disco.sh"
 DESKTOP_PATH="$HOME/.local/share/applications/espelli-disco.desktop"
 
 # ----------- CONFERMA UTENTE -----------
-echo "⚠️  Questo rimuoverà il file script e il collegamento dalla dash:"
+echo "⚠️  Questo rimuoverà il file script e il collegamento dalla dash, come descritto nella documentazione ufficiale:"
 echo " - $SCRIPT_PATH"
 echo " - $DESKTOP_PATH"
 echo
