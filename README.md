@@ -51,7 +51,7 @@ A seguire, lo script procederà a:
 Apri un terminale e incolla questo comando:
 
 ```bash
-bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/unnstaller.sh)
+bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/uninstaller.sh)
 ```
 Lo script procederà a:
 1. Eliminare lo script principale per l'espulsione dei dischi
