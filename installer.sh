@@ -22,6 +22,7 @@ if [[ "$conferma" != "s" && "$conferma" != "S" ]]; then
   exit 1
 fi
 
+
 # ----------- CONTROLLO ZENITY -----------
 if ! command -v zenity &> /dev/null; then
   echo "❌ Zenity non è installato o non funzionante."
