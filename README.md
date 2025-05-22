@@ -20,7 +20,7 @@ Lo script **Gnome Disk Ejecter** risolve questo problema:
 - ⚡ Disattiva l'alimentazione del dispositivo (espulsione sicura)  
 - 🧠 Interfaccia grafica semplice grazie a **Zenity**
 
-🖼️ Ecco un esempio di sistema dove **l'opzione "Espelli" non è presente**:
+🖼️Ecco un esempio di sistema dove **l'opzione "Espelli" non è presente**:
 
 ![Solo smonta - Screenshot](https://github.com/user-attachments/assets/05ba6619-2902-4f21-b3a1-55526945b061)
 
