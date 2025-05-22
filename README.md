@@ -7,7 +7,7 @@ Un semplice script Bash con interfaccia **Zenity** che permette di **espellere i
 
 ![Gnome Disk Ejecter - Screenshot](https://github.com/user-attachments/assets/906400eb-3f43-403f-838c-47f317f2daec)
 
----
+
 
 ## ❓ Perché usarlo?
 
