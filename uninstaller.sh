@@ -2,9 +2,9 @@
 
 # ----------- INTESTAZIONE GRAFICA -----------
 echo -e "\033[1;31m"
-echo "╔══════════════════════════════════════════════════════════════════════╗"
-echo "║         DISINSTALLAZIONE DI GNOME DISK EJECTER                       ║"
-echo "╚══════════════════════════════════════════════════════════════════════╝"
+echo "╔═══════════════════════════════════════════════════════════════════════════════╗"
+echo "║         DISINSTALLAZIONE DELLO SCRIPT DI ESPULSIONE SICURA DEI DISCHI         ║"
+echo "╚═══════════════════════════════════════════════════════════════════════════════╝"
 echo -e "\033[0m"
 
 SCRIPT_PATH="$HOME/Scripts/espelli-disco.sh"
