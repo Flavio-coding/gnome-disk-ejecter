@@ -33,7 +33,19 @@ Apri un terminale e incolla questo comando:
 ```bash
 bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/installer.sh)
 ```
+Lo script verificherà innanzitutto la presenza di Zenity, il tool di GNOME che consente la creazione di semplici interfacce grafiche.
+Se Zenity non è installato, verrà segnalato: potrai installarlo tramite il gestore pacchetti della tua distribuzione (es. su Arch Linux con yay -S zenity).
 
+A seguire, lo script procederà a:
+
+    Scaricare lo script principale per l'espulsione dei dischi
+
+    Assegnargli i permessi di esecuzione (chmod +x)
+
+    Creare un collegamento grafico nella dash delle applicazioni di GNOME
+
+    ⚠️ L'icona dell'app potrebbe impiegare qualche istante a comparire.
+    Se non appare subito, prova a riavviare il PC.
 
 ---
 
