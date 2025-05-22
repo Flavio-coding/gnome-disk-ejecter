@@ -24,7 +24,7 @@ Lo script **Gnome Disk Ejecter** risolve questo problema:
 
 ![Solo smonta - Screenshot](https://github.com/user-attachments/assets/05ba6619-2902-4f21-b3a1-55526945b061)
 
-
+    
 
 ## 🛠️ Installazione
 
@@ -46,6 +46,7 @@ A seguire, lo script procederà a:
 ⚠️   L'icona dell'app potrebbe impiegare qualche istante a comparire. Se non appare subito, prova a riavviare il PC.
     
 
+    
 ---
 
 Made by Flavio with ❤️.
