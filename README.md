@@ -7,7 +7,10 @@ Un semplice script bash in zenity che smonta e spegne qualsiasi disco connesso a
 Quando premiamo "espelli", il sistema operativo smonta il filesystem del disco esterno, dunque non possiamo più comunicare con esso, e ne toglie alimentazione. In alcuni casi, compare solo il tasto smonta, dunque l'unico modo per fermare il disco e toglierlo fisicamente dalla porta USB. Quando è connesso un HHD meccanico, un espulsione sicura è consigliata.
 Questo script permette di scegliere il disco da espellere, ne smonta il filesystem e ne toglie l'alimentazione.
 
+
 ![immagine](https://github.com/user-attachments/assets/05ba6619-2902-4f21-b3a1-55526945b061)
+
+
 
 Per installare lo script, esegui in un terminale:
 `bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/installer.sh)`
