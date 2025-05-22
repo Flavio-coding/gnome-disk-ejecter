@@ -1,5 +1,5 @@
 # Gnome disk ejecter
-Un semplice script bash in zenity che smonta e spegne qualsiasi disco connesso al tuo PC linux, utile se di default hai solo l'opzione smonta e non espelli come puoi vedere in questa immagine 👉https://github.com/user-attachments/assets/05ba6619-2902-4f21-b3a1-55526945b061
+Un semplice script bash in zenity che smonta e spegne qualsiasi disco connesso al tuo PC linux, utile se di default hai solo l'opzione smonta e non espelli, come puoi vedere in questa immagine 👉https://github.com/user-attachments/assets/05ba6619-2902-4f21-b3a1-55526945b061
 
 
 ![immagine](https://github.com/user-attachments/assets/906400eb-3f43-403f-838c-47f317f2daec)
