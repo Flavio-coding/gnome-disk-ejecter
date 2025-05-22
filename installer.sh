@@ -12,6 +12,16 @@ SCRIPTS_DIR="$HOME/Scripts"
 DESKTOP_FILE="$HOME/.local/share/applications/espelli-disco.desktop"
 INSTALLER_PATH="$(realpath "$0")"
 
+# ----------- CONFERMA UTENTE -----------
+echo "Questo installer installerà lo script di espulsione sicura dei dischi, come descritto nella documentazione ufficiale."
+echo
+read -rp "Procedere con l'installazione? (S/n): " conferma
+
+if [[ "$conferma" != "n" && "$conferma" != "N" ]]; then
+  echo "❌ Installazione annullata."
+  exit 1
+fi
+
 # ----------- CONTROLLO ZENITY -----------
 if ! command -v zenity &> /dev/null; then
   echo "❌ Zenity non è installato o non funzionante."
