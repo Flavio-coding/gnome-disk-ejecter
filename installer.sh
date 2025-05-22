@@ -57,9 +57,4 @@ echo "🔄 Aggiorno database delle applicazioni..."
 update-desktop-database ~/.local/share/applications/
 
 # ----------- FINE INSTALLAZIONE -----------
-echo "✅ Installazione completata con successo!"
-echo "   Troverai 'Espelli Disco' nel menu delle applicazioni."
-
-# ----------- AUTO DISTRUZIONE -----------
-echo "💣 Auto-distruzione script installazione..."
-rm -- "$INSTALLER_PATH"
+echo "✅ Installazione completata con successo! Troverai 'Espelli Disco' nel menu delle applicazioni"
