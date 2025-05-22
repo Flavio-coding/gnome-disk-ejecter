@@ -1,4 +1,4 @@
-# 🔌 Gnome Disk Ejecter
+# Gnome Disk Ejecter
 
 Un semplice script Bash con interfaccia **Zenity** che permette di **espellere in sicurezza dischi esterni** connessi al tuo PC Linux.
 
@@ -43,7 +43,7 @@ A seguire, lo script procederà a:
     
 3. Creareun collegamento grafico nella dash delle applicazioni di GNOME
     
-⚠️  L'icona dell'app potrebbe impiegare qualche istante a comparire. Se non appare subito, prova a riavviare il PC.
+⚠️   L'icona dell'app potrebbe impiegare qualche istante a comparire. Se non appare subito, prova a riavviare il PC.
     
 
 ---
