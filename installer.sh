@@ -7,7 +7,7 @@ echo "║   INSTALLAZIONE DELLO SCRIPT DI ESPULSIONE SICURA DEI DISCHI         �
 echo "╚══════════════════════════════════════════════════════════════════════╝"
 echo -e "\033[0m"
 
-REPO_URL="https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecte/main"
+REPO_URL="https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main"
 SCRIPTS_DIR="$HOME/Scripts"
 DESKTOP_FILE="$HOME/.local/share/applications/espelli-disco.desktop"
 INSTALLER_PATH="$(realpath "$0")"
