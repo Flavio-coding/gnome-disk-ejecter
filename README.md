@@ -30,7 +30,9 @@ Lo script **Gnome Disk Ejecter** risolve questo problema:
 
 Apri un terminale e incolla questo comando:
 
-`bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/installer.sh)`
+```bash
+bash <(curl -fsSL -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Flavio-coding/gnome-disk-ejecter/main/installer.sh)
+```
 
 
 ---
