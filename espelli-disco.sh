@@ -67,7 +67,7 @@ output=$(udisksctl power-off -b "$dispositivo" 2>&1)
 codice_uscita=$?
 
 if [ $codice_uscita -eq 0 ]; then
-    zenity --info --modal --text="Disco spento con successo."
+    zenity --info --modal --text="Disco espulso con successo."
 else
     zenity --error --modal --text="Errore durante lo spegnimento:\n$output"
 fi
