@@ -35,21 +35,30 @@ curl -fsSL "$REPO_URL/espelli-disco.sh" -o "$SCRIPT_FILE" || {
 chmod +x "$SCRIPT_FILE"
 echo "✅ Script installato in $SCRIPT_FILE"
 
-# ----------- SCARICO FILE .desktop -----------
+# ----------- SCARICO E ADATTO FILE .desktop -----------
 echo "⬇️  Creo collegamento nella dash..."
 mkdir -p "$(dirname "$DESKTOP_FILE")"
-curl -fsSL "$REPO_URL/espelli-disco.desktop" -o "$DESKTOP_FILE" || {
+TEMP_FILE="$(mktemp)"
+
+curl -fsSL "$REPO_URL/espelli-disco.desktop" -o "$TEMP_FILE" || {
   echo "❌ Errore nel download del file .desktop."
+  rm -f "$TEMP_FILE"
   exit 1
 }
-echo "✅ File .desktop creato."
+
+# Espando $HOME all'interno del file .desktop
+sed "s|\$HOME|$HOME|g" "$TEMP_FILE" > "$DESKTOP_FILE"
+rm -f "$TEMP_FILE"
+chmod +x "$DESKTOP_FILE"
+echo "✅ File .desktop creato correttamente."
 
 # ----------- AGGIORNO DATABASE -----------
 echo "🔄 Aggiorno database delle applicazioni..."
 update-desktop-database ~/.local/share/applications/
 
 # ----------- FINE INSTALLAZIONE -----------
-echo "✅ Installazione completata con successo! Troverai 'Espelli Disco' nel menu delle applicazioni."
+echo "✅ Installazione completata con successo!"
+echo "   Troverai 'Espelli Disco' nel menu delle applicazioni."
 
 # ----------- AUTO DISTRUZIONE -----------
 echo "💣 Auto-distruzione script installazione..."
